@@ -1,0 +1,50 @@
+body {
+    position: relative;
+
+}
+a {
+    border-style: groove;
+    border-color: brown;
+    border-radius: 4px;
+    background-color: burlywood;
+    text-decoration: none; 
+    color: brown;
+    padding: 1px;
+    font-family:fantasy;
+    font-weight: 100;
+    font: size 5px; 
+    position: relative;
+    width: 100px;
+}
+header {
+    background-color: antiquewhite;
+    border-color: burlywood;
+    border-style: groove;
+    position: relative;
+    width: 98%;
+    display: flex;
+    height: min-content;
+}
+
+img {
+    display: flex;
+    position: relative;
+    float: inline-end;
+    width: 95%;
+    max-height: 237.833px;
+    
+
+}
+
+#title {
+    width: 97.5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+body{
+    background-color: brown;
+}
