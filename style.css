@@ -1,8 +1,4 @@
-body {
-    position: relative;
-    border-style: ridge;
 
-}
 a {
     border-style: groove;
     border-color: brown;
@@ -17,11 +13,10 @@ a {
     position: relative;
     width: 100px;
 }
-header {
+nav {
     background-color: antiquewhite;
     border-color: burlywood;
     border-style: groove;
-    border-width: inherit;
     position: relative;
     width: 98%;
     display: flex;
@@ -44,7 +39,8 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    float: left;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 body{
     background-color: brown;
