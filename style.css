@@ -2,38 +2,39 @@ h2 {
     position: relative;
     display: block;
     float: inline-start;
-    height: auto;
+    height: fit-content;
     width: fit-content;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+ 
+ 
 .nav {
     background-color: antiquewhite;
     border-color: burlywood;
     border-style: groove;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 #topnav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
     position: relative;
-    align-items: center;
+    max-width: fit-content;
 }
 
 .rlink  {
-    text-shadow: 2px;
-    font: message-box;
     text-decoration: solid;
     text-decoration-line: none;
-    height: fit-content;
-    width: fit-content;
-    background-color: burlywood;
-    border-color: brown;
-    border-width: 1px;
+    color: bisque; 
+    border-color: black;
     border-style: groove;
-    border-radius: 18%;
-    color: brown;   
+    background-color: brown;
+    max-width: 100%;
+    border-radius: 6px;
+
 }
 
 #botnav {
@@ -61,16 +62,7 @@ h2 {
     text-decoration-line: underline;
     color: black;
 }
-#navlinks {
-    position: relative;
-    display: flex;
-    float: inline-end;
-    flex-direction: row;
-    max-height: fit-content;
-    min-width: fit-content;
-    width: 38%;
-    justify-content: space-between;
-}
+
 
 body {
     background-color: brown;
