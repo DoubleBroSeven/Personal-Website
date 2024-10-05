@@ -6,18 +6,27 @@ h2 {
     width: fit-content;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+.nav {
     background-color: antiquewhite;
     border-color: burlywood;
     border-style: groove;
+}
+
+#topnav {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     align-items: center;
 }
 
-a  {
+#botnav {
+    display: flex;
     position: relative;
+}
+
+
+
+.rlink  {
     text-shadow: 2px;
     font: message-box;
     text-decoration: solid;
@@ -30,8 +39,9 @@ a  {
     border-style: groove;
     border-radius: 18%;
     color: blanchedalmond;
+    
+    
 }
-
 
 #navlinks {
     position: relative;
@@ -39,4 +49,11 @@ a  {
     float: inline-end;
     flex-direction: row;
     max-height: fit-content;
+   
+}
+
+body {
+    background-color: brown;
+    border: 20px;
+    /* border-image: url(https://cdn.pixabay.com/photo/2019/03/03/20/23/background-4032775_1280.png) 27 / 50px 30px/ 1rem round space; */
 }
