@@ -4,6 +4,8 @@ h2 {
     float: inline-start;
     height: auto;
     width: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav {
@@ -31,7 +33,7 @@ h2 {
     border-width: 1px;
     border-style: groove;
     border-radius: 18%;
-    color: blanchedalmond;   
+    color: brown;   
 }
 
 #botnav {
@@ -44,6 +46,9 @@ h2 {
 .flink {
     display: flex;
     position: relative;
+    justify-content: center;
+    text-decoration-line: none;
+    color: brown;
 }
 
 #contactme{
@@ -52,7 +57,9 @@ h2 {
     max-height: fit-content;
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    text-decoration-line: underline;
+    color: black;
 }
 #navlinks {
     position: relative;
@@ -60,6 +67,9 @@ h2 {
     float: inline-end;
     flex-direction: row;
     max-height: fit-content;
+    min-width: fit-content;
+    width: 38%;
+    justify-content: space-between;
 }
 
 body {
