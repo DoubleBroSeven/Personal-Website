@@ -6,8 +6,10 @@ h2 {
 div {
     display: flex;
     position: relative;
-    width: auto;
-    align-items: stretch;
+    width: 80%;
+    height: 26.42px;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 #NamePage {
@@ -23,21 +25,22 @@ div {
 }
 
 #mtspace {
-    display: flex;
+    display: inline-block;
     position: relative;
     width: 41%;
-    white-space-collapse: preserve;
+    height: 26.42px;
 }
 
 #plink {
     display: flex;
-    align-self: flex-end;
+    align-items: flex-end;
     flex-direction: row;
     width: 100%;
+    height: 26.42px;
     position: relative;
     float: inline-end;
-    white-space-collapse: preserve;
-    float: inline-end;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 
 }
 
@@ -61,8 +64,6 @@ a {
     border-color: burlywood;
     border-style: groove;
     max-height: fit-content;
-    overflow: hidden;
-    
 }
 
 #topnav {
@@ -80,10 +81,9 @@ a {
     background-color: brown;
     border-radius: 6px;
     margin: 0%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
     min-width: fit-content;
-    
+    height: 26.42px;
 }
 
 #botnav {
@@ -117,7 +117,6 @@ a {
 
 
 body {
-    overflow: hidden;
     background-color: brown;
     border: 20px;
     /* border-image: url(https://cdn.pixabay.com/photo/2019/03/03/20/23/background-4032775_1280.png) 27 / 50px 30px/ 1rem round space; */
