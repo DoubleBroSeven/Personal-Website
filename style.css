@@ -1,51 +1,101 @@
 h2 {
-    position: relative;
-    display: block;
-    float: inline-start;
-    height: fit-content;
-    width: fit-content;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
+   
 }
- 
+
+div {
+    display: flex;
+    position: relative;
+    width: auto;
+    align-items: stretch;
+}
+
+#NamePage {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+    flex-shrink: 0;
+    white-space-collapse: preserve;
+
+
+}
+
+#mtspace {
+    display: flex;
+    position: relative;
+    width: 41%;
+    white-space-collapse: preserve;
+}
+
+#plink {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    float: inline-end;
+    white-space-collapse: preserve;
+    float: inline-end;
+
+}
+
+#social {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    vertical-align: top;
+    flex-shrink: 0;
+    white-space-collapse: preserve;
+}
+
+
+
+a {
+    text-decoration: none
+}
  
 .nav {
     background-color: antiquewhite;
     border-color: burlywood;
     border-style: groove;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    max-height: fit-content;
+    overflow: hidden;
+    
 }
 
 #topnav {
-    display: flex;
-    flex-direction: column; 
-    position: relative;
-    max-width: fit-content;
+    flex-shrink: 0;
+    height: fit-content;
+    overflow: auto;
 }
 
-.rlink  {
-    text-decoration: solid;
-    text-decoration-line: none;
-    color: bisque; 
+.blink  {
+    position: relative;
+    text-decoration: none;
+    color: black; 
     border-color: black;
     border-style: groove;
     background-color: brown;
-    max-width: 100%;
     border-radius: 6px;
-
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-width: fit-content;
+    
 }
 
 #botnav {
     display: flex;
     position: relative;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .flink {
     display: flex;
+    flex-direction: column;
     position: relative;
     justify-content: center;
     text-decoration-line: none;
@@ -61,14 +111,18 @@ h2 {
     margin-bottom: 8px;
     text-decoration-line: underline;
     color: black;
+    align-items: center;
 }
 
 
+
 body {
+    overflow: hidden;
     background-color: brown;
     border: 20px;
     /* border-image: url(https://cdn.pixabay.com/photo/2019/03/03/20/23/background-4032775_1280.png) 27 / 50px 30px/ 1rem round space; */
 }
+
 address {
     max-height: fit-content;
 }
